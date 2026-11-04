@@ -1,7 +1,6 @@
 import networkx as nx
 G = nx.cycle_graph(30)
 G.add_edge(0, 15)
-G.add_edge(0, 29)
 G.add_edge(21, 19)
 G.add_edge(22, 20)
 G.add_edge(18, 24)
